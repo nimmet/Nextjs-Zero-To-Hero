@@ -1,7 +1,7 @@
-import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  return(<div className='flex flex-col justify-center items-center'>
+  return(
+  <div className='flex flex-col justify-center items-center'>
 
    <Component {...pageProps} /> {" "}
    <footer className='

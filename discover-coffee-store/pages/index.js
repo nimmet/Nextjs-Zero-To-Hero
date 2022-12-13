@@ -1,11 +1,21 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className=' text-center text-lg font-bold text-green-300 italic'>
+    <div style="background-image:url('/static/mesh-gradient.png')">
+    
+     <Head>
+      <title>Create Next App</title>
+      <link rel="icon" href="/favicon.ico" />
+     </Head>
+
+     <main>
+
       <h1>Coffee Store</h1>
+     </main>
+
+     <footer></footer>
     </div>
   )
 }
