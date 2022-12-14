@@ -5,11 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    // extend: {
-    //   // backgroundImage: {
-    //   //   'hero': "url('/static/mesh-gradient.png')"
-    //   // }
-    // }
+    extend: {},
   },
   plugins: [],
 }

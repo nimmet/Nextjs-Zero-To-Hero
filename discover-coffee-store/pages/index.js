@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div style="background-image:url('/static/mesh-gradient.png')">
+    <div className=''>
     
      <Head>
       <title>Create Next App</title>
@@ -12,7 +11,7 @@ export default function Home() {
 
      <main>
 
-      <h1>Coffee Store</h1>
+      <h1 className=' italic '>Coffee Store</h1>
      </main>
 
      <footer></footer>
