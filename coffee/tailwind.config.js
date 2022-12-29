@@ -6,9 +6,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'mesh': "url('/public/static/mesh-gradient.png')",
-      }
+     
     },
   },
   plugins: [],

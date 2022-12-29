@@ -1,3 +1,8 @@
+
+/* body {
+    background-image: url('/public/static/mesh-gradient.png');
+} */
+
 .main {
   display: flex;
   flex-direction: column;
