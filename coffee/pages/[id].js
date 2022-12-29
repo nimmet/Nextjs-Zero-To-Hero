@@ -8,6 +8,7 @@ const DynamicPage = ()=> {
         <Head>
             <title>{router.query.id}</title>
         </Head>
+        <h1>Hi This is a dynamic route.</h1>
         </div>    
         )
 }

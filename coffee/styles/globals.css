@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+    font-family: IMBPlexSans 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: url("/static/mesh-gradient.png");
     background-position: 50%;
     background-attachment: fixed;
@@ -12,5 +13,5 @@ body {
 
 
 .hoverButton {
-    @apply hover:py-2 hover:px-4 hover:bg-blue-500  ;
+    @apply hover:py-2 hover:px-4 hover:bg-blue-500 hover:text-slate-100  ;
 }
