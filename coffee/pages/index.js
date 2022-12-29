@@ -4,18 +4,21 @@ import Banner from '../components/banner'
 
 
 export default function Home() {
+
+  const handleOnBannerBtnClick = () => {
+
+
+  }
   return (
-    <div className=" ">
+    <div className="">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-10">
-        <h1 className="text-3xl font-bold">
-        Coffee Connoisseur
-        </h1>
-        <Banner/>
+      <main className="flex flex-col justify-center items-center">
+       
+        <Banner buttonText="View stores nearby" handleOnclick={handleOnBannerBtnClick}/>
       </main>
 
     </div>
