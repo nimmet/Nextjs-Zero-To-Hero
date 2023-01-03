@@ -11,7 +11,7 @@ export default function Home() {
 
      <main>
 
-      <h1 className=' italic '>Coffee Store</h1>
+      <h1 className=' text-2xl '>Coffee Store</h1>
      </main>
 
      <footer></footer>

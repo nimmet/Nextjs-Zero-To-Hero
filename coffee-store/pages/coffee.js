@@ -4,7 +4,7 @@ const Coffee = () => {
   return (
     <div >
     
-    <h1 className=' italic text-green-400' >
+    <h1 className=" italic " >
     Coffee
     </h1>
     </div>
