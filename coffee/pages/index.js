@@ -2,10 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Banner from '../components/banner'
 import Card from '../components/card'
+import data from '../data/coffee-stores.json'
 
 
 export default function Home() {
 
+  
   const handleOnBannerBtnClick = () => {
 
 
@@ -25,8 +27,27 @@ export default function Home() {
        />
 
 </div>
-       <Card  name="DarkHorse Coffee" imgUrl="/static/coffee1.jpg" 
+
+<div className=' grid justify-center items-center gap-3 md:gap-5 sm:gap-5 grid-cols-1 md:grid-cols-3 sm:grid-cols-2'>
+
+
+       {/* <Card  name="DarkHorse Coffee" imgUrl="/static/coffee1.jpg" 
        href="/coffee-store/darkhorse-coffee" />
+
+<Card  name="Hero Coffee" imgUrl="/static/hero.png" 
+       href="/coffee-store/darkhorse-coffee" /> */}
+
+       {
+        data.map((store)=>{
+          const {id,name,imgUrl} = store
+         return( 
+          <Card key={id} name={name} imgUrl="/static/coffee1.jpg"
+       href={`/coffee-store/${id}`} />
+        )
+        })
+       }
+
+</div>
       </main>
 
     </div>
